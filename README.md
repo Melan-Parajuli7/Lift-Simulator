@@ -249,9 +249,9 @@ Open `services/LiftController.cs` and change the constants at the top:
 
 | Constant | Default | Meaning |
 |---|---|---|
-| `TravelMs` | `5000` | Time to travel between the two floors (ms) |
-| `DoorMs` | `1600` | Time for the doors to open or close (ms) |
-| `HoldMs` | `5000` | How long the doors stay open before closing automatically (ms) |
+| `TravelMs` | `3000` | Time to travel between the two floors (ms) |
+| `DoorMs` | `1200` | Time for the doors to open or close (ms) |
+| `HoldMs` | `3000` | How long the doors stay open before closing automatically (ms) |
 
 To change the number of log rows shown, edit `LogRowsToShow` in `forms/MainForm.cs`.
 

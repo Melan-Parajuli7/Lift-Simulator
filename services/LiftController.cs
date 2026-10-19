@@ -11,9 +11,9 @@ namespace ElevatorApp
     {
         public const int TickMs = 30;
 
-        private const double TravelMs = 5000;          // time to travel between the two floors
-        private const double DoorMs = 1600;            // time the doors need to open or close
-        private const double HoldMs = 5000;            // doors stay open this long before auto-closing
+        private const double TravelMs = 3000;          // time to travel between the two floors
+        private const double DoorMs = 1200;            // time the doors need to open or close
+        private const double HoldMs = 3000;            // doors stay open this long before auto-closing
         private const double MinHoldWhenCalledMs = 1500;
 
         private readonly System.Windows.Forms.Timer _timer = new System.Windows.Forms.Timer();
